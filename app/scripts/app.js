@@ -14,7 +14,7 @@ angular.module('GiphyApp', ['ngRoute', 'ngAnimate'])
 	$scope.searchTerm = 'pugs';
 	$scope.submit = function() {
 		$http({
-			url: 'http://api.giphy.com/v1/gifs/search?q=' + $scope.searchTerm + '&api_key=dc6zaTOxFJmzC',
+			url: 'https://api.giphy.com/v1/gifs/search?q=' + $scope.searchTerm + '&api_key=dc6zaTOxFJmzC',
 			method: 'GET'
 		}).success(function(response) {
 			$scope.results = [{
