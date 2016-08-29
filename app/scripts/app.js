@@ -6,7 +6,8 @@ angular.module('GiphyApp', ['ngRoute', 'ngAnimate'])
 		templateUrl: 'app/views/main.html',
 		controller: 'GiphyCtrl'
 	});
-	$locationProvider.html5Mode(true).hashPrefix('!');
+	// Removing # from url
+	// $locationProvider.html5Mode(true).hashPrefix('!');
 }])
 
 .controller('GiphyCtrl', function($scope, $http){
