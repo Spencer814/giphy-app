@@ -7,7 +7,7 @@ Search Giphy for animated images
 Coding project that uses Giphy's API with Node.js for the backend and AngularJS for the frontend.
 
 *To Do*
-- *Serve assets from backend*
+- *Serve assets from backend* (Completed)
 
 **Code**
 https://github.com/Spencer814/giphy-app
