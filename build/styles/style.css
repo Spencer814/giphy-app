@@ -17,13 +17,13 @@ header {
 }
 
 h1 {
-  margin: 12px;
+  margin: 10px;
 }
 
 .content {
   color: #0054a0;
   margin: 0 auto;
-  padding: 8em 0;
+  padding: 3em 0;
   position: relative;
   text-align: center;
 }
@@ -54,8 +54,8 @@ input {
   background: #f7841b;
   box-shadow: 0 3px 5px #666666;
   margin: 0 auto;
-  padding: 1em 0;
-  width: 50%;
+  padding: 6px 0;
+  width: 40%;
 }
 
 .link-wrap a {
@@ -175,17 +175,22 @@ footer {
   width: 100%;
 }
 
-@media (max-width: 1200px) {
+footer h5 {
+  margin: 8px;
+}
+
+@media (max-width: 1280px) {
   h1 {
     margin: 10px;
   }
 
-  .content {
-    padding: 6em 0;
-  }
-
   .container {
     width: 75%;
+    height: 390px;
+  }
+
+  .slide {
+    height: 80%;
   }
 }
 
@@ -194,23 +199,19 @@ footer {
     margin: 6px;
   }
 
-  .content {
-    padding: 5em 0;
-  }
-
   .container {
     width: 80%;
+    height: 375px;
+  }
+
+  .slide {
+    height: 75%;
   }
 }
 
-@media (max-width: 906px) {
-  .content {
-    padding: 6em 0;
-  }
-
+@media (max-width: 800px) {
   .container {
     height: 340px;
-    margin: 4em auto;
   }
 
   .slide {
@@ -218,15 +219,11 @@ footer {
   }
 
   .link-wrap {
-    padding: 12px 0;
-  }
-
-  footer h5 {
-    margin: 16px;
+    width: 50%;
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 1.4em;
   }
@@ -247,12 +244,7 @@ footer {
   }
 
   h2 {
-    font-size: 1.1em;
-    margin-bottom: 6px;
-  }
-
-  .link-wrap {
-    padding: 6px 0;
+    font-size: 1.3em;
   }
 
   .link-wrap a {
@@ -261,20 +253,72 @@ footer {
 
   footer h5 {
     font-size: 0.7em;
-    margin: 8px;
   }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 480px) {
   .container {
     margin: 1em auto;
     width: 95%;
   }
 }
 
-@media (min-width: 320px) and (max-width: 360px) {
+@media (max-width: 320px) {
   .content {
     padding: 2em 0;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  .link-wrap {
+    width: 75%;
+  }
+}
+
+@media (max-width: 218px) {
+  h1 {
+    font-size: 1em;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  .container {
+    height: 115px;
+  }
+
+  .content {
+    padding: 3em 0;
+  }
+
+  .slide {
+    height: 10%;
+    min-height: 20%;
+  }
+
+  .dots {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+@media (max-width: 158px) {
+  header {
+    display: none;
+  }
+
+  .content {
+    padding: 0;
+  }
+
+  .link-wrap {
+    display: none;
   }
 }
 
