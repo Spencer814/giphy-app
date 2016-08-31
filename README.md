@@ -13,6 +13,6 @@ Coding project that uses Giphy's API with Node.js for the backend and AngularJS 
 https://github.com/Spencer814/giphy-app
     
 **Demo**
-http://spencer814.github.io/giphy-app/#/
+https://spencer814.github.io/giphy-app/build/#/
 
 # giphy-app
