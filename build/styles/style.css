@@ -115,44 +115,6 @@ img {
   transition: 0.2s linear all;
 }
 
-ul {
-  list-style-type: none;
-}
-
-.dots {
-  padding-left: 0;
-}
-
-.dots .dot {
-  display: inline;
-  margin: 0 1em;
-  position: relative;
-}
-
-.dots .dot a {
-  background: #ffffff;
-  border-radius: 50%;
-  border: 1px solid transparent;
-  box-shadow: 1px 1px 3px #666666;
-  cursor: pointer;
-  height: 6px;
-  outline: none;
-  overflow: hidden;
-  position: absolute;
-  transition: background-color 0.25s, border-color 0.25s;
-  width: 6px;
-}
-
-.dots .dot a:hover {
-  border-color: #ffffff;
-  box-shadow: 1px 1px 3px #333333;
-}
-
-.dots .dot a.active {
-  border-color: #ffffff;
-  box-shadow: 1px 1px 3px #111111;
-}
-
 a {
   color: #0054a0;
   text-decoration: none;
