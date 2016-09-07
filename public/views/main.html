@@ -12,14 +12,6 @@
 		<a class="arrow prev fa fa-chevron-left" ng-click="nextSlide()"></a>
 		<img class="slide" ng-hide="!isCurrentSlideIndex($index)" ng-repeat="result in results" ng-src="{{result.gif}}">
 		<a class="arrow next fa fa-chevron-right" ng-click="prevSlide()"></a>
-
-		<!-- Dots below gif that denote more gifs returned by search -->
-		<ul class="dots">
-			<li class="dot" ng-repeat="result in results">
-				<a ng-class="{'active':isCurrentSlideIndex($index)}"
-					 ng-click="setCurrentSlideIndex($index);"></a>
-			</li>
-		</ul>
 	</div>
 </div>
 
